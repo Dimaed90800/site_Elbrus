@@ -3,12 +3,14 @@ html, body{
     width: 100%;
 }
 body { margin: 0;
-    background-image: url(pictures/Rectangle1.png);
+   background-image: url(pictures/Rectangle1.png);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
+    float: inside;
 }
+
 header{
     width: 100%;
     background-color: #5E90A7 ;
@@ -28,7 +30,7 @@ header{
     width: 100px;
     height: 78px;
 }
-.text-block {
+.text-block, body {
     padding-top: 36px;
     float: left;
 
@@ -39,6 +41,17 @@ header{
     font-family: 'Grand Hotel', cursive;
     font-size: 4rem;
     color: white;
+}
+.Text-block1{
+    margin-top: 60rem;
+    margin-left: 3rem;
+}
+.Text1{
+    font-family: 'Graduate', cursive;
+    font-size: 2.5vw;
+    -webkit-text-stroke: 2px #6D7280;
+    color: #5E90A7;
+
 }
 /*.text-block1 {
     padding-top: 25px;
@@ -182,7 +195,7 @@ header{
 
     overflow-y: auto;
 
-    right: -100%;
+    right: -1000%;
 
     transition: 0.5s;
 
@@ -202,7 +215,7 @@ header{
 
     padding: 30px;
 
-    font-family: sans-serif;
+    font-family: "Nunito Sans", sans-serif;
 
     font-size: 32px;
 
@@ -214,7 +227,7 @@ header{
 
     font-weight: bold;
 
-    color: #fff;
+    color: white;
 
 }
 
@@ -223,6 +236,10 @@ header{
 .burger-menu__link :hover {
     text-decoration: none;
 
+    text-shadow: 0 0 5px rgba(0,0,0,0.8);
+
+    color: white;
+
     filter: brightness(0.7);
 
 }
@@ -230,7 +247,6 @@ header{
 
 
 .burger-menu__overlay {
-    text-decoration: none;
 
     display: none;
 
