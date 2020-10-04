@@ -43,7 +43,8 @@ header{
     color: white;
 }
 .Text-block1{
-    margin-top: 60rem;
+    position: absolute;
+    bottom: 1.5rem;
     margin-left: 3rem;
 }
 .Text1{
