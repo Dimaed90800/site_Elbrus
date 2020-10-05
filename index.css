@@ -3,20 +3,25 @@ html, body{
     width: 100%;
 }
 body { margin: 0;
-   background-image: url(pictures/Rectangle1.png);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    background-position: center;
-    float: inside;
-}
+   background-color: white;
 
+}
+.fullheight.jumbotron{
+    position: relative;
+    background: url("pictures/Rectangle1.png") no-repeat center center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
 header{
     width: 100%;
     background-color: #5E90A7 ;
     top: 0;
     min-height: 70px;
     position: fixed;
+    z-index:1000
 
 }
 .image{
@@ -272,10 +277,52 @@ header{
 
 }
 
+.section{
+    padding: 0;
+    margin: 0;
+    position: relative;
+    top: 0;
+}
+.Text-block2\.0{
+    position: absolute;
+    right: 25em;
 
 
+}
+.image1 {
+    margin: 151px 10px 15px 70px;
+    float: left;
+    width: 636px;
+    height: 416px;
+}
+.text2\.0{
+    font-family: 'Graduate', cursive;
+    color: #ffffff;
+    -webkit-text-stroke: 1px #5e90a7;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 5.5rem;
+}
+.container-fluid{
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(180deg, #D2D5D9 28.98%, #329BC8 79.45%, #329BC8 100%);
+}
+.Text-block2\.1{
+    position: absolute;
+    top: 15rem;
+    right: 10.5em;
+
+}
+.Text-block2\.1{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 56px;
+    color: #5E90A7;
 
 
+}
 
 
 
