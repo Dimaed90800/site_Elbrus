@@ -178,8 +178,6 @@ header{
 
 
 .burger-menu__nav {
-    text-decoration: none;
-
     padding-top: 80px;
 
     position: fixed;
@@ -218,7 +216,7 @@ header{
 
     font-family: "Nunito Sans", sans-serif;
 
-    font-size: 32px;
+    font-size: 25px;
 
     text-decoration: none;
 
@@ -234,7 +232,7 @@ header{
 
 
 
-.burger-menu__link :hover {
+.burger-menu__link:hover, .burger-menu__link:focus{
     text-decoration: none;
 
     text-shadow: 0 0 5px rgba(0,0,0,0.8);
@@ -242,6 +240,7 @@ header{
     color: white;
 
     filter: brightness(0.7);
+
 
 }
 
