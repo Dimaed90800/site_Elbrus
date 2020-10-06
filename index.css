@@ -284,16 +284,11 @@ header{
 
 }
 
-.section{
-    padding: 0;
-    margin: 0;
-    position: relative;
-    top: 0;
-}
 .Text-block2\.0{
+    text-emphasis: none;
     position: absolute;
-    right: 15.5em;
-    top: 2.5em;
+    right: 21.5rem;
+    top: 2.5rem;
 
 }
 .image1 {
@@ -307,6 +302,11 @@ header{
     margin: 500px 10px 15px 70px;
 
 }
+.container-fluid img {
+    max-width:100%;
+    height: auto;
+}
+
 
 
 .text2\.0{
@@ -326,19 +326,23 @@ header{
 .Text-block2\.1{
     position: absolute;
     top: 15rem;
-    right: 5em;
+    right: 20rem;
 
 }
-.Text-block2\.1{
+.text2\.1{
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 600;
-    font-size: 40px;
-    line-height: 56px;
+    font-size: 4rem;
+    line-height: 5.4rem;
     color: #5E90A7;
 }
 .Text-block3\.0{
-    align-content: center;
+    position: absolute;
+    top: 10rem;
+    left: 5%;
+
+
 }
 .text3\.0{
     font-family: 'Montserrat', sans-serif;
@@ -352,7 +356,19 @@ header{
     -webkit-text-stroke: 1px #B11212;
 
 }
-
+.image5{
+   margin: 100px 100px 100px 400px;
+}
+.image6{
+    margin-top: 100px;
+}
+.group1{
+    padding-bottom: 7%;
+    margin-left: 26%;
+}
+#map-header{
+    padding-bottom: -40px;
+}
 
 
 /*.text1{
