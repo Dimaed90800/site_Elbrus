@@ -19,7 +19,7 @@ header{
     width: 100%;
     background-color: #5E90A7 ;
     top: 0;
-    min-height: 70px;
+    min-height: 5%;
     position: fixed;
     z-index:1000
 
@@ -36,6 +36,7 @@ header{
     height: 78px;
 }
 .text-block, body {
+    text-emphasis: none;
     padding-top: 36px;
     float: left;
 
@@ -43,8 +44,14 @@ header{
 
 }
 .text{
+    text-decoration: none;
     font-family: 'Grand Hotel', cursive;
     font-size: 4rem;
+    color: white;
+}
+
+.text-block a:hover, .text-block a:focus{
+    text-decoration: none;
     color: white;
 }
 .Text-block1{
@@ -285,16 +292,23 @@ header{
 }
 .Text-block2\.0{
     position: absolute;
-    right: 25em;
-
+    right: 15.5em;
+    top: 2.5em;
 
 }
 .image1 {
-    margin: 151px 10px 15px 70px;
+    margin: 50px 10px 15px 70px;
     float: left;
-    width: 636px;
-    height: 416px;
+
 }
+.image2 {
+    /*margin: 10px 100px 15px 70px;
+    float: left;*/
+    margin: 500px 10px 15px 70px;
+
+}
+
+
 .text2\.0{
     font-family: 'Graduate', cursive;
     color: #ffffff;
@@ -303,24 +317,39 @@ header{
     font-size: 5.5rem;
 }
 .container-fluid{
+    height: 3000px;
     margin: 0;
     padding: 0;
     background: linear-gradient(180deg, #D2D5D9 28.98%, #329BC8 79.45%, #329BC8 100%);
+    background-size: cover;
 }
 .Text-block2\.1{
     position: absolute;
     top: 15rem;
-    right: 10.5em;
+    right: 5em;
 
 }
 .Text-block2\.1{
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 600;
-    font-size: 36px;
+    font-size: 40px;
     line-height: 56px;
     color: #5E90A7;
-
+}
+.Text-block3\.0{
+    align-content: center;
+}
+.text3\.0{
+    font-family: 'Montserrat', sans-serif;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 78px;
+    text-align: center;
+    color: #FD7C21;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    -webkit-text-stroke: 1px #B11212;
 
 }
 
