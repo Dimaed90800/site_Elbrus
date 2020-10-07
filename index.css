@@ -19,7 +19,7 @@ header{
     width: 100%;
     background-color: #5E90A7 ;
     top: 0;
-    min-height: 5%;
+    height: 100px;
     position: fixed;
     z-index:1000
 
@@ -317,7 +317,6 @@ header{
     font-size: 5.5rem;
 }
 .container-fluid{
-    height: 3000px;
     margin: 0;
     padding: 0;
     background: linear-gradient(180deg, #D2D5D9 28.98%, #329BC8 79.45%, #329BC8 100%);
@@ -372,6 +371,7 @@ header{
 .Text-block3\.1{
     margin-top: 2%;
     margin-left: 20%;
+
 }
 .text3\.1{
     font-family: 'Nunito Sans', sans-serif;
@@ -383,7 +383,60 @@ header{
     color: #FD7C21;
     -webkit-text-stroke: 1px #B11212;
 }
+#bottom3{
+    margin-bottom: 15%;
+}
+.fullwidth.jumbotron {
+    position: relative;
+    background: url("pictures/image3.png") no-repeat center center;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+}
+.Text-block0{
+    margin-top: 70%;
+    margin-left: 31%;
+    padding-bottom: 3%;
 
+}
+
+.text0 a:hover, .text0 a:focus {
+    text-decoration: none;
+    color: white;
+}
+.text0{
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 3rem;
+    line-height: 5rem;
+    text-align: center;
+    color: white;
+    -webkit-text-stroke: 3px rgba(0, 0, 0, 0.25);
+}
+.form-group{
+    margin-top: 30px;
+}
+.form-group-md{
+    position: absolute;
+    top: 950px;
+    left: 5%;
+}
+.text4\.0{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 3rem;
+    line-height: 47px;
+    text-align: center;
+
+    color: #329BC8;
+
+
+}
 /*.text1{
     font-family: 'Nunito Sans', sans-serif;
     font-size: 3.2rem;
