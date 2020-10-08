@@ -287,19 +287,19 @@ header{
 .Text-block2\.0{
     text-emphasis: none;
     position: absolute;
-    right: 21.5rem;
-    top: 2.5rem;
+    right: 10vw;
+    top: 2vw;
 
 }
 .image1 {
-    margin: 50px 10px 15px 70px;
+    margin: 10% 3% 5% 9%;
     float: left;
 
 }
 .image2 {
     /*margin: 10px 100px 15px 70px;
     float: left;*/
-    margin: 500px 10px 15px 70px;
+    margin: 30% 3% 5% 9%;
 
 }
 .container-fluid img {
@@ -314,7 +314,7 @@ header{
     color: #ffffff;
     -webkit-text-stroke: 1px #5e90a7;
     text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
-    font-size: 5.5rem;
+    font-size: 4vw;
 }
 .container-fluid{
     margin: 0;
@@ -324,22 +324,21 @@ header{
 }
 .Text-block2\.1{
     position: absolute;
-    top: 15rem;
-    right: 20rem;
+    top: 9vw;
+    right: 20vw;
 
 }
 .text2\.1{
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 600;
-    font-size: 4rem;
-    line-height: 5.4rem;
+    font-size: 2vw;
     color: #5E90A7;
 }
 .Text-block3\.0{
     position: absolute;
-    top: 9rem;
-    left: 11%;
+    top: 5vw;
+    left: 3vw;
 
 
 }
@@ -347,8 +346,8 @@ header{
     font-family: 'Montserrat', sans-serif;
     font-style: italic;
     font-weight: 600;
-    font-size: 64px;
-    line-height: 78px;
+    font-size: 3.5vw;
+    line-height: 2vw;
     text-align: center;
     color: #FD7C21;
     text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
@@ -356,12 +355,12 @@ header{
 
 }
 .image5{
-    position: absolute;
-    top: 100px;
-    right: 0;
+    margin-top: 12%;
+    margin-left: 82%;
 }
 .image6{
-    margin-top: 100px;
+    margin-top: 12%;
+    margin-left: 3%;
 }
 #img1{
     display: block;
