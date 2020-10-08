@@ -369,15 +369,15 @@ header{
 
 .Text-block3\.1{
     margin-top: 2%;
-    margin-left: 20%;
+    margin-left: 12vw;
 
 }
 .text3\.1{
     font-family: 'Nunito Sans', sans-serif;
     font-style: normal;
     font-weight: bold;
-    font-size: 48px;
-    line-height: 65px;
+    font-size: 3vw;
+
     text-align: center;
     color: #FD7C21;
     -webkit-text-stroke: 1px #B11212;
@@ -396,7 +396,7 @@ header{
 }
 .Text-block0{
     margin-top: 70%;
-    margin-left: 31%;
+    margin-left: 33%;
     padding-bottom: 3%;
 
 }
@@ -413,8 +413,7 @@ header{
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 500;
-    font-size: 3rem;
-    line-height: 5rem;
+    font-size: 1.5vw;
     text-align: center;
     color: white;
     -webkit-text-stroke: 3px rgba(0, 0, 0, 0.25);
@@ -423,16 +422,13 @@ header{
     margin-top: 30px;
 }
 .form-group-md{
-    position: absolute;
-    top: 950px;
-    left: 5%;
+    margin-top: 110%;
 }
 .text4\.0{
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 500;
-    font-size: 3rem;
-    line-height: 47px;
+    font-size: 1.5vw;
     text-align: center;
 
     color: #329BC8;
