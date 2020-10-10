@@ -1,11 +1,12 @@
+
 html, body{
     height: 100%;
     width: 100%;
 }
 body { margin: 0;
    background-color: white;
-
 }
+
 .fullheight.jumbotron{
     position: relative;
     background: url("pictures/Rectangle1.png") no-repeat center center;
@@ -19,7 +20,7 @@ header{
     width: 100%;
     background-color: #5E90A7 ;
     top: 0;
-    height: 100px;
+    max-height: 100px;
     position: fixed;
     z-index:1000
 
@@ -27,21 +28,11 @@ header{
 .image{
     margin: 15px 10px 15px 30px;
     float: left;
-
-}
-.img {
-
-    margin-left: 10px;
-    width: 100px;
-    height: 78px;
 }
 .text-block, body {
     text-emphasis: none;
     padding-top: 36px;
     float: left;
-
-
-
 }
 .text{
     text-decoration: none;
@@ -66,222 +57,116 @@ header{
     color: #5E90A7;
 
 }
-/*.text-block1 {
-    padding-top: 25px;
-    float: left;
-    margin-right: 2%;
-
-}*/
-
-
 
 .burger-menu__button {
-
     position: fixed;
-
     top: 10px;
-
     right: 10px;
-
     z-index: 30;
-
     width: 80px;
-
     height: 80px;
-
     border-radius: 50%;
-
     background-color: #2a2a2a;
-
     transition: 0.4s;
-
 }
-
 
 
 .burger-menu__button:hover .burger-menu__lines {
-
     filter: brightness(0.7);
-
 }
-
-
 
 .burger-menu__lines,
-
 .burger-menu__lines::after,
-
 .burger-menu__lines::before {
-
     position: absolute;
-
     width: 40px;
-
     height: 6px;
-
     background-color: #fff;
-
-
-
 }
-
 
 
 .burger-menu__lines {
-
     top: 50%;
-
     left: 50%;
-
     transform: translate(-50%, -50%);
-
 }
 
 
 
 .burger-menu__lines::before {
-
     content: "";
-
     top: -12px;
-
 }
 
-
-
 .burger-menu__lines::after {
-
     content: "";
-
     top: 12px;
-
 }
 
 .burger-menu_active .burger-menu__button,
-
 .burger-menu_active .burger-menu__lines {
-
     background-color: transparent;
-
 }
-
-
-
-
 
 .burger-menu_active .burger-menu__lines::before {
-
     top: 0;
-
     transform: rotate(45deg);
-
 }
-
-
 
 .burger-menu_active .burger-menu__lines::after {
-
     top: 0;
-
     transform: rotate(-45deg);
-
 }
-
-
 
 .burger-menu__nav {
     padding-top: 80px;
-
     position: fixed;
-
     z-index: 20;
-
     display: flex;
-
     flex-flow: column;
-
     height: 100%;
-
     background-color: #2a2a2a;
-
     overflow-y: auto;
-
     right: -1000%;
-
     transition: 0.5s;
-
 }
-
-
 
 .burger-menu_active .burger-menu__nav {
-
     right: 0;
-
 }
-
-
 
 .burger-menu__link {
-
     padding: 30px;
-
     font-family: "Nunito Sans", sans-serif;
-
-    font-size: 25px;
-
+    font-size: 2.3rem;
     text-decoration: none;
-
     text-transform: uppercase;
-
-    letter-spacing: 5px;
-
+    letter-spacing: 1rem;
     font-weight: bold;
-
     color: white;
-
 }
-
 
 
 .burger-menu__link:hover, .burger-menu__link:focus{
     text-decoration: none;
-
     text-shadow: 0 0 5px rgba(0,0,0,0.8);
-
     color: white;
-
     filter: brightness(0.7);
-
-
 }
-
 
 
 .burger-menu__overlay {
-
     display: none;
-
     position: fixed;
-
     top: 0;
-
     left: 0;
-
     width: 100vw;
-
     height: 100vh;
-
     z-index: 10;
-
 }
 
 .burger-menu_active .burger-menu__overlay {
-
     display: block;
-
-
-
 }
 
 .Text-block2\.0{
@@ -289,16 +174,12 @@ header{
     position: absolute;
     right: 10vw;
     top: 2vw;
-
 }
+
 .image1 {
     margin: 10% 3% 5% 9%;
-    float: left;
-
 }
 .image2 {
-    /*margin: 10px 100px 15px 70px;
-    float: left;*/
     margin: 30% 3% 5% 9%;
 
 }
@@ -307,8 +188,6 @@ header{
     height: auto;
 }
 
-
-
 .text2\.0{
     font-family: 'Graduate', cursive;
     color: #ffffff;
@@ -316,7 +195,7 @@ header{
     text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
     font-size: 4vw;
 }
-.container-fluid{
+#bottomblocks{
     margin: 0;
     padding: 0;
     background: linear-gradient(180deg, #D2D5D9 28.98%, #329BC8 79.45%, #329BC8 100%);
@@ -377,14 +256,11 @@ header{
     font-style: normal;
     font-weight: bold;
     font-size: 3vw;
-
     text-align: center;
     color: #FD7C21;
     -webkit-text-stroke: 1px #B11212;
 }
-#bottom3{
-    margin-bottom: 15%;
-}
+
 .fullwidth.jumbotron {
     position: relative;
     background: url("pictures/image3.png") no-repeat center center;
@@ -418,9 +294,6 @@ header{
     color: white;
     -webkit-text-stroke: 3px rgba(0, 0, 0, 0.25);
 }
-.form-group{
-    margin-top: 30px;
-}
 .form-group-md{
     margin-top: 110%;
 }
@@ -428,94 +301,9 @@ header{
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 500;
-    font-size: 1.5vw;
+    font-size: 3rem;
     text-align: center;
 
     color: #329BC8;
-
-
 }
-/*.text1{
-    font-family: 'Nunito Sans', sans-serif;
-    font-size: 3.2rem;
-    color: white;
-}*/
-/*.knp1 {
-    /*display: inline-block;*/
-   /* padding: 5px 15px; /* Поля */
-   /* text-decoration: none; /* Убираем подчёркивание */
-   /* color: white; /* Цвет текста */
-/*}8
-.knp1:hover {
-    text-decoration: none;
-    text-shadow: 0 0 5px rgba(0,0,0,0.8);
-    color: white;
-}
-/*.text-block2 {
-    padding-top: 25px;
-    margin-right: 2%;
-    float: left;
-
-}*/
-/*.text2{
-    font-family: 'Nunito Sans', sans-serif;
-    font-size: 3.2rem;
-    color: white;
-}
-.knp2 {
-    /*display: inline-block;*/
-    /*padding: 5px 15px; /* Поля */
-    /*text-decoration: none; /* Убираем подчёркивание */
-    /*color: white; /* Цвет текста */
-/*}
-/*.knp2:hover {
-    text-decoration: none;
-    text-shadow: 0 0 5px rgba(0,0,0,0.8);
-    color: white;
-}
-/*.text-block3 {
-    padding-top: 25px;
-    margin-right: 2%;
-    float: left;
-
-}*/
-/*.text3{
-    font-family: 'Nunito Sans', sans-serif;
-    font-size: 3.2rem;
-    color: white;
-}
-.knp3 {
-    /*display: inline-block;*/
-   /* padding: 5px 15px; /* Поля */
-    /*text-decoration: none; /* Убираем подчёркивание */
-    /*color: white; /* Цвет текста */
-/*}
-.knp3:hover {
-    text-decoration: none;
-    text-shadow: 0 0 5px rgba(0,0,0,0.8);
-    color: white;
-}
-/*.text-block4 {
-    padding-top: 25px;
-
-}
-.text4{
-    font-family: 'Nunito Sans', sans-serif;
-    font-size: 3.2rem;
-    color: white;
-}*/
-/*.knp4{
-    /*display: inline-block;*/
-    /*padding: 5px 15px; /* Поля */
-   /* text-decoration: none; /* Убираем подчёркивание */
-    /*color: white; /* Цвет текста */
-/*}
-.knp4:hover {
-    text-decoration: none;
-    text-shadow: 0 0 5px rgba(0,0,0,0.8);
-    color: white;
-}
-
-
-
 
