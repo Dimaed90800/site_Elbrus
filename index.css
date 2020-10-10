@@ -183,6 +183,8 @@ header{
     margin: 30% 3% 5% 9%;
 
 }
+
+
 .container-fluid img {
     max-width:100%;
     height: auto;
@@ -195,7 +197,7 @@ header{
     text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
     font-size: 4vw;
 }
-#bottomblocks{
+.container-fluid{
     margin: 0;
     padding: 0;
     background: linear-gradient(180deg, #D2D5D9 28.98%, #329BC8 79.45%, #329BC8 100%);
@@ -241,8 +243,9 @@ header{
     margin-top: 12%;
     margin-left: 3%;
 }
+
 #img1{
-    display: block;
+    display: flex;
     margin: auto;
 }
 
@@ -307,3 +310,7 @@ header{
     color: #329BC8;
 }
 
+.row{
+    margin-left: 0;
+    margin-right: 0;
+}
