@@ -1,37 +1,35 @@
-
 html, body{
     height: 100%;
     width: 100%;
 }
 body { margin: 0;
-   background-color: white;
+    background-color: white;
 }
-
-.fullheight.jumbotron{
-    position: relative;
-    background: url("pictures/Rectangle1.png") no-repeat center center;
-    background-size: cover;
-    width: 100%;
-    height: 100%;
+.container-fluid{
     margin: 0;
     padding: 0;
+    background: linear-gradient(180deg, #D2D5D9 28.98%, #329BC8 79.45%, #329BC8 100%);
+    background-size: cover;
 }
+
+.row{
+    margin-left: 0;
+    margin-right: 0;
+}
+/*--------------------------------------------------HEADER------------------------------------------------------------*/
+
 header{
     width: 100%;
     background-color: #5E90A7 ;
     top: 0;
+    height: 90px;
     max-height: 100px;
     position: fixed;
     z-index:1000
 
 }
 .image{
-    margin: 15px 10px 15px 30px;
-    float: left;
-}
-.text-block, body {
-    text-emphasis: none;
-    padding-top: 36px;
+    margin: 10px 10px 15px 30px;
     float: left;
 }
 .text{
@@ -40,27 +38,20 @@ header{
     font-size: 4rem;
     color: white;
 }
+.text-block, body {
+    text-emphasis: none;
+    padding-top: 32px;
+    float: left;
+}
+
 
 .text-block a:hover, .text-block a:focus{
     text-decoration: none;
     color: white;
 }
-.Text-block1{
-    position: absolute;
-    bottom: 1.5rem;
-    margin-left: 3rem;
-}
-.Text1{
-    font-family: 'Graduate', cursive;
-    font-size: 2.5vw;
-    -webkit-text-stroke: 2px #6D7280;
-    color: #5E90A7;
-
-}
-
 .burger-menu__button {
     position: fixed;
-    top: 10px;
+    top: 5px;
     right: 10px;
     z-index: 30;
     width: 80px;
@@ -169,6 +160,32 @@ header{
     display: block;
 }
 
+/*---------------------------------------BLOCK1-----------------------------------------------------------------------*/
+.fullheight.jumbotron{
+    position: relative;
+    background: url("pictures/Rectangle1.png") no-repeat center center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.Text-block1{
+    position: absolute;
+    bottom: 1.5rem;
+    margin-left: 3rem;
+}
+.Text1{
+    font-family: 'Graduate', cursive;
+    font-size: 2.5vw;
+    -webkit-text-stroke: 2px #6D7280;
+    color: #5E90A7;
+
+}
+/*---------------------------------------BLOCK2-----------------------------------------------------------------------*/
+
+
 .Text-block2\.0{
     text-emphasis: none;
     position: absolute;
@@ -180,10 +197,9 @@ header{
     margin: 10% 3% 5% 9%;
 }
 .image2 {
-    margin: 30% 3% 5% 9%;
+    margin: 10% 3% 5% 9%;
 
 }
-
 
 .container-fluid img {
     max-width:100%;
@@ -197,12 +213,7 @@ header{
     text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
     font-size: 4vw;
 }
-.container-fluid{
-    margin: 0;
-    padding: 0;
-    background: linear-gradient(180deg, #D2D5D9 28.98%, #329BC8 79.45%, #329BC8 100%);
-    background-size: cover;
-}
+
 .Text-block2\.1{
     position: absolute;
     top: 9vw;
@@ -216,6 +227,7 @@ header{
     font-size: 2vw;
     color: #5E90A7;
 }
+/*------------------------------------------------------BLOCK3--------------------------------------------------------*/
 .Text-block3\.0{
     position: absolute;
     top: 5vw;
@@ -252,7 +264,7 @@ header{
 .Text-block3\.1{
     margin-top: 2%;
     margin-left: 12vw;
-
+    padding-bottom: 7%;
 }
 .text3\.1{
     font-family: 'Nunito Sans', sans-serif;
@@ -263,7 +275,7 @@ header{
     color: #FD7C21;
     -webkit-text-stroke: 1px #B11212;
 }
-
+/*---------------------------------------------------BLOCK4-----------------------------------------------------------*/
 .fullwidth.jumbotron {
     position: relative;
     background: url("pictures/image3.png") no-repeat center center;
@@ -274,7 +286,7 @@ header{
     padding: 0;
 }
 .Text-block0{
-    margin-top: 70%;
+    margin-top: 15%;
     margin-left: 33%;
     padding-bottom: 3%;
 
@@ -298,7 +310,7 @@ header{
     -webkit-text-stroke: 3px rgba(0, 0, 0, 0.25);
 }
 .form-group-md{
-    margin-top: 110%;
+    margin-top: 105%;
 }
 .text4\.0{
     font-family: 'Roboto', sans-serif;
@@ -308,9 +320,4 @@ header{
     text-align: center;
 
     color: #329BC8;
-}
-
-.row{
-    margin-left: 0;
-    margin-right: 0;
 }
