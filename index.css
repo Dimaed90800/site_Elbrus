@@ -12,15 +12,21 @@ body { margin: 0;
     background-size: cover;
 }
 
-.row{
+/*.container-fluid .row{
     margin-left: 0;
     margin-right: 0;
+}*/
+.container-fluid img{
+    max-width: 100%;
+    width: auto;
+    height: auto;
 }
+/*.flex{display: -webkit-box;display: -moz-box;display: -ms-flexbox; display: -webkit-flex;display: flex; flex:1 1 auto;}*/
 /*--------------------------------------------------MEDIA-------------------------------------------------------------*/
-@media (min-width:581px) and (max-width:750px){
+@media(max-width: 750px){
 .Text1{
     font-size: 5vw;
-    -webkit-text-stroke: 0.2rem #6D7280;
+    -webkit-text-stroke: 0.0000001rem #6D7280;
     }
 
     .burger-menu__button{
@@ -44,6 +50,14 @@ body { margin: 0;
     }
     .text2\.1{
         font-size: 2vw;
+    }
+    .image6 img{
+        height: 80px;
+        width: 80px;
+    }
+    .image5 img{
+        height: 80px;
+        width: 80px;
     }
 }
 
@@ -80,6 +94,14 @@ body { margin: 0;
     .text2\.1{
         font-size: 2vw;
     }
+    .image6 img{
+        height: 100px;
+        width: 100px;
+    }
+    .image5 img{
+        height: 100px;
+        width: 100px;
+    }
 }
 
 
@@ -114,6 +136,14 @@ body { margin: 0;
     }
     .text2\.1{
         font-size: 2vw;
+    }
+    .image6 img{
+        height: 100px;
+        width: 100px;
+    }
+    .image5 img{
+        height: 100px;
+        width: 100px;
     }
 
 }
@@ -151,10 +181,18 @@ body { margin: 0;
     .text2\.1{
         font-size: 2vw;
     }
+    .image6 img{
+        height: 100px;
+        width: 100px;
+    }
+    .image5 img{
+        height: 100px;
+        width: 100px;
+    }
 }
 
 
-@media (min-width:100px) and (max-width:580px){
+@media (max-width:580px){
 .Text1{
     font-size: 4.7vw;
     -webkit-text-stroke: 0.1rem #6D7280;
@@ -190,6 +228,15 @@ body { margin: 0;
     .text2\.1{
         font-size: 3vw;
     }
+    .image6 img{
+        height: 30px;
+        width: 30px;
+    }
+    .image5 img{
+        height: 30px;
+        width: 30px;
+    }
+
 }
 
 /*--------------------------------------------------HEADER------------------------------------------------------------*/
@@ -360,7 +407,9 @@ header{
 }
 /*---------------------------------------BLOCK2-----------------------------------------------------------------------*/
 
-
+.col-md-5 .col-lg-5 .col-sm-6 .col-xs-5 .image5 .image6 img{
+    overflow: hidden;
+}
 .Text-block2\.0{
     text-emphasis: none;
     position: absolute;
@@ -376,10 +425,10 @@ header{
 
 }
 
-.container-fluid img {
+/*.container-fluid img {
     max-width:100%;
     height: auto;
-}
+}*/
 
 .text2\.0{
     font-family: 'Graduate', cursive;
@@ -409,9 +458,8 @@ header{
     position: absolute;
     top: 5vw;
     left: 3vw;
-
-
 }
+
 .text3\.0{
     font-family: 'Montserrat', sans-serif;
     font-style: italic;
@@ -422,12 +470,13 @@ header{
     color: #FD7C21;
     text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
     -webkit-text-stroke: 1px #B11212;
-
 }
+
 .image5{
     margin-top: 12%;
     margin-left: 82%;
 }
+
 .image6{
     margin-top: 12%;
     margin-left: 3%;
@@ -443,6 +492,7 @@ header{
     margin-left: 12vw;
     padding-bottom: 7%;
 }
+
 .text3\.1{
     font-family: 'Nunito Sans', sans-serif;
     font-style: normal;
@@ -458,7 +508,7 @@ header{
     background: url("pictures/image3.png") no-repeat center center;
     background-size: cover;
     width: 100%;
-    height: auto;
+    height: 100%;
     margin: 0;
     padding: 0;
 }
