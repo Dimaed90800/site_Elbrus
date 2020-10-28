@@ -28,6 +28,9 @@ body { margin: 0;
     font-size: 5vw;
     -webkit-text-stroke: 0.2rem #6D7280;
     }
+    .Text-block3\.0{
+        padding-bottom: 30%;
+    }
     .burger-menu__lines::before {
         top: -10px;
     }
@@ -94,6 +97,9 @@ body { margin: 0;
     font-size:4vw;
     -webkit-text-stroke: 2px #6D7280;
 }
+    .Text-block3\.0{
+        padding-bottom: 40%;
+    }
     .burger-menu__lines::before {
         top: -12px;
     }
@@ -155,6 +161,9 @@ body { margin: 0;
     font-size: 3vw;
     -webkit-text-stroke: 2px #6D7280;
 }
+    .Text-block3\.0{
+        padding-bottom: 50%;
+    }
     .burger-menu__lines::before {
         top: -12px;
     }
@@ -215,6 +224,9 @@ body { margin: 0;
     .Text1{
         font-size: 2.5vw;
         -webkit-text-stroke: 2px #6D7280;
+    }
+    .Text-block3\.0{
+        padding-bottom: 15%;
     }
     .burger-menu__lines::before {
         top: -12px;
@@ -277,6 +289,9 @@ body { margin: 0;
     font-size: 4.7vw;
     -webkit-text-stroke: 0.1rem #6D7280;
 }
+    .Text-block3\.0{
+        padding-bottom: 8%;
+    }
     #bt1{
         position: absolute;
         height: 200px;
@@ -593,6 +608,10 @@ header{
 /*------------------------------------------------------BLOCK3--------------------------------------------------------*/
 .Text-block3\.0{
     text-align: center;
+
+}
+#bt3-pic{
+    padding-top: 2%;
 }
 
 .text3\.0{
@@ -608,13 +627,16 @@ header{
 }
 
 .image5{
-    margin-top: 12%;
-    margin-left: 82%;
+    position: absolute;
+    right: 0;
+    top: 12%;
+
 }
 
 .image6{
-    margin-top: 12%;
-    margin-left: 3%;
+    position: absolute;
+    left: 0;
+    top: 12%;
 }
 
 #img1{
@@ -636,6 +658,7 @@ header{
     color: #FD7C21;
     -webkit-text-stroke: 1px #B11212;
 }
+
 /*---------------------------------------------------BLOCK4-----------------------------------------------------------*/
 .fullwidth.jumbotron {
     position: relative;
