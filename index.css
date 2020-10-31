@@ -31,6 +31,9 @@ body { margin: 0;
     .Text-block3\.0{
         padding-bottom: 30%;
     }
+    .Text-block3\.0{
+        padding-bottom: 30%;
+    }
     .burger-menu__lines::before {
         top: -10px;
     }
@@ -516,8 +519,15 @@ body { margin: 0;
         font-size: 4.7vw;
         -webkit-text-stroke: 0.1rem #6D7280;
     }
+    .Text-block3\.0 {
+        padding-bottom: 8%;
+    }
     .Text-block3\.0{
         padding-bottom: 8%;
+    }
+    #bt1{
+        position: absolute;
+        height: 200px;
     }
     .burger-menu__lines::before {
         top: -10px;
