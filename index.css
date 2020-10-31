@@ -147,6 +147,9 @@ body { margin: 0;
         padding-top: 40px;
         padding-bottom: 40px;
     }
+    #b3{
+        padding-top: 20px;
+    }
 }
 
 
@@ -267,6 +270,9 @@ body { margin: 0;
     }
     #bt4{
         padding-bottom: 20px;
+    }
+    #b3{
+        padding-top: 20px;
     }
 }
 
@@ -390,6 +396,9 @@ body { margin: 0;
     #bt4{
         padding-bottom: 20px;
     }
+    #b3{
+        padding-top: 20px;
+    }
 }
 
 
@@ -510,6 +519,9 @@ body { margin: 0;
     }
     #bt4{
         padding-bottom: 20px;
+    }
+    #b3{
+        padding-top: 50px;
     }
 }
 
@@ -636,6 +648,9 @@ body { margin: 0;
     #bt4{
         padding-top: 20px;
         padding-bottom: 20px;
+    }
+    #b3{
+        padding-top: 20px;
     }
 }
 
