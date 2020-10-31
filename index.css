@@ -525,10 +525,6 @@ body { margin: 0;
     .Text-block3\.0{
         padding-bottom: 8%;
     }
-    #bt1{
-        position: absolute;
-        height: 200px;
-    }
     .burger-menu__lines::before {
         top: -10px;
     }
