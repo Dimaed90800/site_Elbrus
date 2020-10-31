@@ -24,9 +24,12 @@ body { margin: 0;
 /*.flex{display: -webkit-box;display: -moz-box;display: -ms-flexbox; display: -webkit-flex;display: flex; flex:1 1 auto;}*/
 /*--------------------------------------------------MEDIA-------------------------------------------------------------*/
 @media(max-width:767px) and (min-width:576px){
-.Text1{
-    font-size: 5vw;
-    -webkit-text-stroke: 0.2rem #6D7280;
+    .Text1{
+        font-size: 5vw;
+        -webkit-text-stroke: 0.2rem #6D7280;
+    }
+    .Text-block3\.0{
+        padding-bottom: 30%;
     }
     .burger-menu__lines::before {
         top: -10px;
@@ -86,14 +89,72 @@ body { margin: 0;
         font-size: 2.5vw;
         -webkit-text-stroke: 2px rgba(0, 0, 0, 0.25);
     }
+    #bt1{
+        height: 180px;
+    }
+    #bt3{
+        padding-top: 40px;
+        height: 130px;
+    }
+    .text22\.0{
+        font-family: 'Graduate', cursive;
+        color: #ffffff;
+        -webkit-text-stroke: 1px #5e90a7;
+        text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+        font-size: 50px;
+    }
+
+    .Text-block22\.1{
+        text-align: center;
+
+
+    }
+    .text22\.1{
+        font-family: 'Montserrat', sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        color: #5E90A7;
+    }
+    .Text-block22\.2{
+        text-align: center;
+
+
+    }
+    .text22\.2{
+        font-family: 'Montserrat', sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        color: #5E90A7;
+    }
+    .Text-block22\.0{
+        text-emphasis: none;
+        text-align: center;
+    }
+    .image1 img{
+        display:block;
+        margin: auto;
+    }
+    .image2 img{
+        display:block;
+        margin: auto;
+    }
+    #bt4{
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
 }
 
 
 @media (max-width:991px) and (min-width:768px){
-.Text1{
-    font-size:4vw;
-    -webkit-text-stroke: 2px #6D7280;
-}
+    .Text1{
+        font-size:4vw;
+        -webkit-text-stroke: 2px #6D7280;
+    }
+    .Text-block3\.0{
+        padding-bottom: 40%;
+    }
     .burger-menu__lines::before {
         top: -12px;
     }
@@ -147,14 +208,74 @@ body { margin: 0;
         -webkit-text-stroke: 2px rgba(0, 0, 0, 0.25);
         font-size: 1.5vw;
     }
+    #bt1{
+        height: 200px;
+    }
+    #bt3{
+        height: 200px;
+    }
+    .text22\.0{
+        font-family: 'Graduate', cursive;
+        color: #ffffff;
+        -webkit-text-stroke: 1px #5e90a7;
+        text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+        font-size: 4vw;
+    }
+
+    .Text-block22\.1{
+        position: absolute;
+        top: 9vw;
+        right: 20vw;
+
+
+    }
+    .text22\.1{
+        font-family: 'Montserrat', sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 2vw;
+        color: #5E90A7;
+    }
+    .Text-block22\.2{
+        position: absolute;
+        top: 9vw;
+        right: 20vw;
+
+
+    }
+    .text22\.2{
+        font-family: 'Montserrat', sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 2vw;
+        color: #5E90A7;
+    }
+    .Text-block22\.0{
+        text-emphasis: none;
+        position: absolute;
+        right: 10vw;
+        top: 2vw;
+    }
+    .image1 {
+        margin: 10% 3% 5% 9%;
+    }
+    .image2 {
+        margin: 10% 3% 5% 9%;
+    }
+    #bt4{
+        padding-bottom: 20px;
+    }
 }
 
 
 @media (max-width:1199px) and (min-width:992px){
-.Text1{
-    font-size: 3vw;
-    -webkit-text-stroke: 2px #6D7280;
-}
+    .Text1{
+        font-size: 3vw;
+        -webkit-text-stroke: 2px #6D7280;
+    }
+    .Text-block3\.0{
+        padding-bottom: 50%;
+    }
     .burger-menu__lines::before {
         top: -12px;
     }
@@ -208,6 +329,64 @@ body { margin: 0;
         -webkit-text-stroke: 2px rgba(0, 0, 0, 0.25);
         font-size: 1.5vw;
     }
+    #bt1{
+        height: 200px;
+    }
+    #bt3{
+        height: 200px;
+    }
+    .text22\.0{
+        font-family: 'Graduate', cursive;
+        color: #ffffff;
+        -webkit-text-stroke: 1px #5e90a7;
+        text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+        font-size: 4vw;
+    }
+
+    .Text-block22\.1{
+        position: absolute;
+        top: 9vw;
+        right: 20vw;
+
+
+    }
+    .text22\.1{
+        font-family: 'Montserrat', sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 2vw;
+        color: #5E90A7;
+    }
+    .Text-block22\.2{
+        position: absolute;
+        top: 9vw;
+        right: 20vw;
+
+
+    }
+    .text22\.2{
+        font-family: 'Montserrat', sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 2vw;
+        color: #5E90A7;
+    }
+    .Text-block22\.0{
+        text-emphasis: none;
+        position: absolute;
+        right: 10vw;
+        top: 2vw;
+    }
+
+    .image1 {
+        margin: 10% 3% 5% 9%;
+    }
+    .image2 {
+        margin: 10% 3% 5% 9%;
+    }
+    #bt4{
+        padding-bottom: 20px;
+    }
 }
 
 
@@ -215,6 +394,9 @@ body { margin: 0;
     .Text1{
         font-size: 2.5vw;
         -webkit-text-stroke: 2px #6D7280;
+    }
+    .Text-block3\.0{
+        padding-bottom: 15%;
     }
     .burger-menu__lines::before {
         top: -12px;
@@ -269,17 +451,73 @@ body { margin: 0;
         -webkit-text-stroke: 3px rgba(0, 0, 0, 0.25);
         font-size: 1.5vw;
     }
+    #bt1{
+        height: 200px;
+    }
+    #bt3{
+        height: 200px;
+    }
+    .text22\.0{
+        font-family: 'Graduate', cursive;
+        color: #ffffff;
+        -webkit-text-stroke: 1px #5e90a7;
+        text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+        /*font-size: 4vw;*/
+    }
+
+    .Text-block22\.1{
+        position: absolute;
+        top: 9vw;
+        right: 20vw;
+
+
+    }
+    .text22\.1{
+        font-family: 'Montserrat', sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 2vw;
+        color: #5E90A7;
+    }
+    .Text-block22\.2{
+        position: absolute;
+        top: 9vw;
+        right: 20vw;
+
+
+    }
+    .text22\.2{
+        font-family: 'Montserrat', sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 2vw;
+        color: #5E90A7;
+    }
+    .Text-block22\.0{
+        text-emphasis: none;
+        position: absolute;
+        right: 10vw;
+        top: 2vw;
+    }
+    .image1 {
+        margin: 10% 3% 5% 9%;
+    }
+    .image2 {
+        margin: 10% 3% 5% 9%;
+    }
+    #bt4{
+        padding-bottom: 20px;
+    }
 }
 
 
 @media (max-width:575px){
-.Text1{
-    font-size: 4.7vw;
-    -webkit-text-stroke: 0.1rem #6D7280;
-}
-    #bt1{
-        position: absolute;
-        height: 200px;
+    .Text1{
+        font-size: 4.7vw;
+        -webkit-text-stroke: 0.1rem #6D7280;
+    }
+    .Text-block3\.0{
+        padding-bottom: 8%;
     }
     .burger-menu__lines::before {
         top: -10px;
@@ -335,10 +573,64 @@ body { margin: 0;
         font-size: 3vw;
     }
     .text0{
-            -webkit-text-stroke: 1px rgba(0, 0, 0, 0.25);
+        -webkit-text-stroke: 1px rgba(0, 0, 0, 0.25);
         font-size: 2.5vw;
     }
+    #bt1{
+        height: 140px;
+    }
+    #bt3{
+        padding-top: 20px;
+        height: 160px;
+    }
+    .text22\.0{
+        font-family: 'Graduate', cursive;
+        color: #ffffff;
+        -webkit-text-stroke: 1px #5e90a7;
+        text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+        font-size: 9vw;
+    }
 
+    .Text-block22\.1{
+        text-align: center;
+
+
+    }
+    .text22\.1{
+        font-family: 'Montserrat', sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 120%;
+        color: #5E90A7;
+    }
+    .Text-block22\.2{
+        text-align: center;
+
+
+    }
+    .text22\.2{
+        font-family: 'Montserrat', sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 120%;
+        color: #5E90A7;
+    }
+    .Text-block22\.0{
+        text-emphasis: none;
+        text-align: center;
+    }
+    .image1 {
+        display:block;
+        margin: auto;
+    }
+    .image2 {
+        display:block;
+        margin: auto;
+    }
+    #bt4{
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
 }
 
 /*--------------------------------------------------HEADER------------------------------------------------------------*/
@@ -517,13 +809,7 @@ header{
     top: 2vw;
 }
 
-.image1 {
-    margin: 10% 3% 5% 9%;
-}
-.image2 {
-    margin: 10% 3% 5% 9%;
 
-}
 
 /*.container-fluid img {
     max-width:100%;
@@ -552,47 +838,15 @@ header{
     /*font-size: 2vw;*/
     color: #5E90A7;
 }
-.text22\.0{
-    font-family: 'Graduate', cursive;
-    color: #ffffff;
-    -webkit-text-stroke: 1px #5e90a7;
-    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
-    /*font-size: 4vw;*/
-}
-
-.Text-block22\.1{
-    position: absolute;
-    top: 9vw;
-    right: 20vw;
-
-
-}
-.text22\.1{
-    font-family: 'Montserrat', sans-serif;
-    font-style: normal;
-    font-weight: 600;
-    /*font-size: 2vw;*/
-    color: #5E90A7;
-}
-.Text-block22\.2{
-    position: absolute;
-    top: 9vw;
-    right: 20vw;
-
-
-}
-.text22\.2{
-    font-family: 'Montserrat', sans-serif;
-    font-style: normal;
-    font-weight: 600;
-    /*font-size: 2vw;*/
-    color: #5E90A7;
-}
 
 
 /*------------------------------------------------------BLOCK3--------------------------------------------------------*/
 .Text-block3\.0{
     text-align: center;
+
+}
+#bt3-pic{
+    padding-top: 2%;
 }
 
 .text3\.0{
@@ -608,13 +862,16 @@ header{
 }
 
 .image5{
-    margin-top: 12%;
-    margin-left: 82%;
+    position: absolute;
+    right: 0;
+    top: 12%;
+
 }
 
 .image6{
-    margin-top: 12%;
-    margin-left: 3%;
+    position: absolute;
+    left: 0;
+    top: 12%;
 }
 
 #img1{
@@ -636,6 +893,7 @@ header{
     color: #FD7C21;
     -webkit-text-stroke: 1px #B11212;
 }
+
 /*---------------------------------------------------BLOCK4-----------------------------------------------------------*/
 .fullwidth.jumbotron {
     position: relative;
@@ -647,7 +905,7 @@ header{
     padding: 0;
 }
 .Text-block0{
-   text-align: center;
+    text-align: center;
     padding-bottom: 3%;
     padding-top: 4%;
 
@@ -673,7 +931,7 @@ header{
 .form-group{
     margin-top: 105%;
 }
-.text4\.0{
+.text4\.0 {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 500;
